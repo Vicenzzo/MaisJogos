@@ -1,0 +1,247 @@
+.home{
+/*     background-image: url(../../../public/imgs/backgroundCyberpunk.png);
+ */    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-color: var(--background);
+}
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 85vh;
+    margin-top: 30px;
+    gap:40px;
+    padding: 0px 25px;
+    background-color: var(--background);
+}
+.section__categories{
+    background-color: var(--light-background);
+    color: var(--color-primary);
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    font-family: var(--font-normal);
+    padding: 20px;
+    border-radius: 5px;
+}
+.section__categories .home__categorias{
+    
+}
+.section__categories .home__categorias label{
+    text-transform: capitalize;
+    margin: 0;
+    cursor: pointer;
+    padding: 5px 10px;
+}
+.section__categories .home__categorias input{
+    accent-color: var(--purple);
+}
+.section__categories h2{
+    margin: 5px;
+}
+.section__categories .home__categorias label:hover{
+    background-color: var(--light-hover-background);
+}
+.container__home__right{
+    width: 85%;
+}
+.section__title{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.section__title h1{
+    font-family: var(--font-pixel);
+    color: var(--white);
+    width: 400px;
+    font-size: 1.5rem;
+    text-shadow:
+        0 0 10px #fff,
+        0 0 15px rgb(68, 0, 255),
+        0 0 25px rgb(68, 0, 255),
+        0 0 35px rgb(68, 0, 255),
+        0 0 45px rgb(68, 0, 255);
+        margin: 0;
+    text-align: center;
+    margin: 0;
+}
+.section__title img{
+    translate: -70px;
+    animation: Avatar 3s infinite;
+    height: 150px;
+}
+.section__banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:5px;
+}
+.section__banner i{
+    color: var(--color-primary);
+    cursor:pointer;
+    font-size: 2rem;
+}
+.section__banner img{
+    width: 85%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+#games__home{
+    padding: 40px 30px;
+    margin-top: 40px;
+    width: 95.4%;
+    position: relative;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+#games__home > h2{
+    font-family: var(--font-pixel);
+    color: var(--color-primary);
+    margin: 0;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 100%;
+}
+#games__home > p{
+    font-family: var(--font-pixel);
+    color: var(--color-primary);
+    margin: 0;
+    margin: 15px;
+    text-align: right;
+    width: 100%;
+    cursor: pointer;
+}
+.section__games{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 100%;
+    justify-content: center;
+}
+
+#publish__games, #newsletter__games{
+    padding: 40px 30px;
+}
+
+#publish__games > h2{
+    font-family: var(--font-pixel);
+    color: var(--color-primary);
+    margin: 0;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+.border__card__publish, .border__card__newsletter{
+    border:2px solid var(--black);
+    border-radius:5px;
+    background-color: var(--grey-dark);
+    padding:7px;
+    box-shadow: 2px 2px 0px 0px rgba(56, 56, 56, 0.75) inset,
+    0px 0px 12px rgb(255 255 255 / 26%);
+    transition: 0.5s all;
+}
+
+.card__publish, .card__newsletter{
+    background-color: var(--color-secondary);
+    border:2px solid var(--black);
+    border-radius:5px;
+    padding:20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+}
+.card__publish{
+    background-image: url(imgs/publish_image.png);
+    background-size: cover;
+}
+
+.text__newsletter{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+    color: var(--color-primary);    
+    font-family: var(--font-pixel);
+}
+.text__publish{
+    color: var(--white);
+    font-family: var(--font-pixel);
+}
+
+.text__publish button, .text__newsletter button{
+    font-family: var(--font-pixel);
+    text-align: center;
+    color: var(--white);
+    background-color: var(--purple);
+    box-shadow: 2px 2px 0px #932eff inset,
+    -2px -2px 0px #44008d inset;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 40px;
+    cursor: pointer;
+}
+.text__newsletter input{
+    border: 1px solid var(--purple);
+    color: var(--grey-dark);
+    padding: 10px 15px;
+    border-radius: 10px;
+    background-color: transparent;
+    width: 80%;
+}
+.image__publish img, .image__newsletter img{
+    height: 180px;
+}
+
+/*animação*/
+@keyframes Avatar{
+    0%{
+        transform: rotate(0deg);
+        opacity: 1;
+        filter: drop-shadow(5px 5px rgba(255, 255, 255, 0));
+    }
+    5%{
+        filter: drop-shadow(5px 5px rgb(255, 0, 55));
+    }
+    6%{
+        filter:drop-shadow(5px 5px rgba(255, 255, 255, 0));
+    }
+    7%{
+        filter: drop-shadow(-5px -5px rgb(0, 255, 255));
+    }
+    8%{
+        filter:drop-shadow(-5px -5px rgba(255, 255, 255, 0));
+    }
+    10%{
+        opacity: 0;
+    }
+    11%{
+        opacity: 1;
+    }
+    95%{
+        filter: drop-shadow(5px 5px rgb(255, 0, 55));
+    }
+    96%{
+        filter:drop-shadow(5px 5px rgba(255, 255, 255, 0));
+    }
+    97%{
+        filter: drop-shadow(-5px -5px rgb(0, 255, 255));
+    }
+    98%{
+        filter:drop-shadow(-5px -5px rgba(255, 255, 255, 0));
+    }
+    99%{
+        opacity: 1;        
+    }
+    100%{
+        transform: rotate(5deg);
+        opacity: 0;
+    }
+}

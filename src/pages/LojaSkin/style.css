@@ -1,0 +1,34 @@
+
+
+.lojaskin__price{
+    color: var(--white);
+}
+
+
+.lojaskin__imgBG{
+    background-color: #252525;
+    border-radius: 8px;
+    
+}
+
+.titulo{
+    font-family: var(--font-pixel);
+    color: var(--color-primary);
+    text-align: center;
+}
+
+.lojaskin__grid{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width:800px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    gap: 35px;
+    margin-bottom: 35px;
+}
+
+.footer__main{
+    margin-bottom: 0vh;
+}
+
