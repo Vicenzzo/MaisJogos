@@ -1,25 +1,25 @@
 
-import './style.css'
+// import './style.css'
 
-const CardAvatar = ({nome, rotulo, img}) => {
+// const CardAvatar = ({nome, rotulo, img}) => {
  
-    return (
-        <div className="avatares__border">
-        <div className="avatares__cardBG">
-            <div className="avatares__imgBG">
-                <img id="avatares__parrot" src={img} />
-            </div>
+//     return (
+//         <div className="avatares__border">
+//         <div className="avatares__cardBG">
+//             <div className="avatares__imgBG">
+//                 <img id="avatares__parrot" src={img} />
+//             </div>
             
-            <div className="avatares__letraPixel">
+//             <div className="avatares__letraPixel">
                 
-                <p>{nome}</p>
+//                 <p>{nome}</p>
             
-            </div>
+//             </div>
             
-            <div className="avatares__cardFooter">
-                <p> {rotulo} </p>
-            </div>
-        </div>
-    </div>  )}
+//             <div className="avatares__cardFooter">
+//                 <p> {rotulo} </p>
+//             </div>
+//         </div>
+//     </div>  )}
 
-export default CardAvatar;
+// export default CardAvatar;
