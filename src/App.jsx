@@ -9,10 +9,10 @@ import Joguinhos from "./pages/Joguinhos/Joguinhos";
 import Jogo from "./pages/Jogo/Jogo";
 import Entrar from "./pages/Entrar/Entrar";
 import PerfilUser from "./pages/PerfilUser/PerfilUser"
-import MeusJogosUser from "./pages/MeusJogosUser/MeusJogos"
+// import MeusJogosUser from "./pages/MeusJogosUser/MeusJogos"
 import ListaDeDesejos from "./pages/ListadeDesejos/ListadeDesejos"
 import LojaSkin from "./pages/LojaSkin/LojaSkin";
-import Avatares from "./pages/Avatares/Avatares";
+// import Avatares from "./pages/Avatares/Avatares";
 import Categorias from "./pages/Categorias/Categorias";
 import NotFound from "./pages/NotFound/NotFound";
 import Review from "./pages/Review/Review";
@@ -31,7 +31,7 @@ function App({theme}) {
           {/* <Route path='/meus-jogos' element={<MeusJogosUser/>}/> */}
           <Route path='/lista-desejos' element={<ListaDeDesejos/>}/>
           <Route path='/loja-skin' element={<LojaSkin/>}/>
-          <Route path='/avatares' element={<Avatares/>}/>
+          {/* <Route path='/avatares' element={<Avatares/>}/> */}
           <Route path='/categorias/:category' element={<Categorias/>}/>
           <Route path='*' element={<NotFound/>}/>
           <Route path='/review' element={<Review/>}/>
